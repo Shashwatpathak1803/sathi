@@ -118,13 +118,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "erw/community-link-worker-mobilising-sangathan-women-through-a-home-visit.jpg",
-   "erw/hamlet-level-dialogue-women-raising-concerns-and-planning-collective-a.jpg",
-   "erw/hamlet-level-meeting-with-nari-sangh-women.jpg",
-   "erw/purwa-level-nari-sangh-meeting-at-harirampur.jpg",
-   "erw/women-s-collective-meeting-in-the-village.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "sahes",
@@ -198,13 +192,7 @@ export const catalog = [
     "outcomes": []
    }
   ],
-  "photos": [
-   "scope/refresher-training-for-cso-heads-and-accountants-on-finance-management.jpg",
-   "scope/two-day-refresher-training-for-cso-field-staff.jpg",
-   "mausam/training-on-cib-for-the-field-team-2.jpg",
-   "mausam/training-on-cib-for-the-field-team.jpg",
-   "mausam/training-on-organisational-development.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "mrc",
@@ -268,7 +256,6 @@ export const catalog = [
    "mrc-banda/labour-helpline-number-displayed-at-banda-railway-station-with-police-.jpg",
    "mrc-banda/observing-the-world-day-against-child-labour.jpg",
    "mrc-banda/outreach-at-the-labour-chowk.jpg",
-   "mrc-banda/outreach-with-community-members-at-nandwara.jpg",
    "mrc-banda/promoting-the-helpline-number-2.jpg",
    "mrc-banda/promoting-the-helpline-number-3.jpg",
    "mrc-banda/promoting-the-helpline-number.jpg",
@@ -323,12 +310,7 @@ export const catalog = [
     "outcomes": []
    }
   ],
-  "photos": [
-   "scope/digital-school-innovative-learning-activity-by-a-partner-cso.jpg",
-   "maitri/vidyasabha-at-primary-school-ahran-suvansh.jpg",
-   "maitri/vidyasabha-at-primary-school-pilai.jpg",
-   "maitri/vidyasabha-at-primary-school-sagarpatti.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "dcp",
@@ -368,12 +350,7 @@ export const catalog = [
     "outcomes": []
    }
   ],
-  "photos": [
-   "scope/digital-school-innovative-learning-activity-by-a-partner-cso.jpg",
-   "maitri/vidyasabha-at-primary-school-adilpur-2.jpg",
-   "maitri/vidyasabha-at-primary-school-adilpur.jpg",
-   "maitri/vidyasabha-at-primary-school-paraspur-sathra.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "cscu",
@@ -422,15 +399,7 @@ export const catalog = [
     "outcomes": []
    }
   ],
-  "photos": [
-   "scope/quarterly-planning-and-review-meeting-2.jpg",
-   "scope/quarterly-planning-and-review-meeting.jpg",
-   "scope/refresher-training-for-cso-heads-and-accountants-on-finance-management.jpg",
-   "scope/swaviswas-monitoring-and-handholding-support-to-a-partner-cso.jpg",
-   "scope/two-day-refresher-training-for-cso-field-staff.jpg",
-   "mausam/od-training-of-cso-partners-2.jpg",
-   "mausam/od-training-of-cso-partners.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "kumbh",
@@ -535,14 +504,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "mausam/od-baseline-at-disha-banda.jpg",
-   "mausam/od-training-of-cso-partners-2.jpg",
-   "mausam/od-training-of-cso-partners.jpg",
-   "mausam/organisational-development-baseline-exercise.jpg",
-   "mausam/training-on-organisational-development-at-chachikpur.jpg",
-   "scope/quarterly-planning-and-review-meeting.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c2",
@@ -576,14 +538,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "mausam/od-baseline-at-disha-banda.jpg",
-   "mausam/od-training-of-cso-partners-2.jpg",
-   "mausam/od-training-of-cso-partners.jpg",
-   "mausam/organisational-development-baseline-exercise.jpg",
-   "mausam/training-on-organisational-development-at-chachikpur.jpg",
-   "scope/quarterly-planning-and-review-meeting.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c3",
@@ -616,14 +571,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "mausam/od-baseline-at-disha-banda.jpg",
-   "mausam/od-training-of-cso-partners-2.jpg",
-   "mausam/od-training-of-cso-partners.jpg",
-   "mausam/organisational-development-baseline-exercise.jpg",
-   "mausam/training-on-organisational-development-at-chachikpur.jpg",
-   "scope/quarterly-planning-and-review-meeting.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c4",
@@ -655,14 +603,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "mausam/od-baseline-at-disha-banda.jpg",
-   "mausam/od-training-of-cso-partners-2.jpg",
-   "mausam/od-training-of-cso-partners.jpg",
-   "mausam/organisational-development-baseline-exercise.jpg",
-   "mausam/training-on-organisational-development-at-chachikpur.jpg",
-   "scope/quarterly-planning-and-review-meeting.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c5",
@@ -692,11 +633,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "erw/nari-sangh-leader-engaging-with-government-officials.jpg",
-   "erw/nari-sangh-leaders-learning-about-women-s-rights-and-legal-protections.jpg",
-   "erw/nari-sangh-leaders-training-on-domestic-violence-dowry-and-women-s-pro.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c6",
@@ -728,12 +665,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "nutrition/home-visit-for-nutrition-follow-up.jpg",
-   "nutrition/nutritional-counselling-session.jpg",
-   "nutrition/screening-of-children-in-the-community.jpg",
-   "smhm/community-health-camp.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c7",
@@ -764,11 +696,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "nutrition/home-visit-for-nutrition-follow-up.jpg",
-   "nutrition/nutritional-counselling-session.jpg",
-   "nutrition/screening-of-children-in-the-community.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c9",
@@ -810,12 +738,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "maitri/baseline-assessment-in-the-village.jpg",
-   "maitri/baseline-assessment-with-community-members.jpg",
-   "maitri/door-to-door-contact-with-families.jpg",
-   "maitri/home-contact-with-a-family.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c10",
@@ -845,14 +768,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "mausam/od-baseline-at-disha-banda.jpg",
-   "mausam/od-training-of-cso-partners-2.jpg",
-   "mausam/od-training-of-cso-partners.jpg",
-   "mausam/organisational-development-baseline-exercise.jpg",
-   "mausam/training-on-organisational-development-at-chachikpur.jpg",
-   "scope/quarterly-planning-and-review-meeting.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c11",
@@ -888,13 +804,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "nutrition/district-nutrition-committee-dnc-meeting.jpg",
-   "nutrition/exposure-visit.jpg",
-   "nutrition/participatory-learning-and-action-pla-meeting-with-women.jpg",
-   "nutrition/participatory-learning-and-action-pla-meeting.jpg",
-   "nutrition/sambhav-abhiyan-activity-at-bhiyaon.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c13",
@@ -930,11 +840,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "smhm/awareness-session-in-school.jpg",
-   "smhm/awareness-session-using-iec-material.jpg",
-   "nutrition/nutritional-counselling-session.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c14",
@@ -968,12 +874,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "erw/community-monitoring-visit.jpg",
-   "erw/nari-sangh-leaders-updating-entitlement-data-on-the-community-flex-boa.jpg",
-   "scope/adolescent-girls-economic-empowerment-and-skill-development-programme.jpg",
-   "mrc-banda/information-session-on-social-security-schemes-at-vmkrc.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c15",
@@ -1003,12 +904,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "scope/two-day-refresher-training-for-cso-field-staff.jpg",
-   "mausam/training-on-cib-for-the-field-team-2.jpg",
-   "mausam/training-on-cib-for-the-field-team.jpg",
-   "mausam/training-on-organisational-development.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c17",
@@ -1042,12 +938,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "maitri/enrolment-related-school-visit.jpg",
-   "maitri/school-visit-for-enrolment-follow-up.jpg",
-   "maitri/vidyasabha-at-primary-school-adilpur.jpg",
-   "maitri/vidyasabha-at-primary-school-pilai.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c19",
@@ -1083,11 +974,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "nutrition/district-nutrition-committee-dnc-meeting.jpg",
-   "nutrition/screening-of-children-in-the-community.jpg",
-   "smhm/community-health-camp.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c20",
@@ -1119,11 +1006,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "smhm/community-health-camp.jpg",
-   "nutrition/sambhav-abhiyan-activity-at-bhiyaon.jpg",
-   "nutrition/screening-of-children-in-the-community.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c21",
@@ -1155,12 +1038,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "maitri/door-to-door-contact-with-families.jpg",
-   "maitri/enrolment-related-school-visit.jpg",
-   "maitri/school-visit-for-enrolment-follow-up.jpg",
-   "maitri/vidyasabha-at-primary-school-rurukhas.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c22",
@@ -1192,11 +1070,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "scope/digital-school-innovative-learning-activity-by-a-partner-cso.jpg",
-   "maitri/vidyasabha-at-primary-school-sagarpatti.jpg",
-   "maitri/vidyasabha-at-primary-school-sahijanwa.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c23",
@@ -1296,14 +1170,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "mausam/od-baseline-at-disha-banda.jpg",
-   "mausam/od-training-of-cso-partners-2.jpg",
-   "mausam/od-training-of-cso-partners.jpg",
-   "mausam/organisational-development-baseline-exercise.jpg",
-   "mausam/training-on-organisational-development-at-chachikpur.jpg",
-   "scope/quarterly-planning-and-review-meeting.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c30",
@@ -1357,11 +1224,7 @@ export const catalog = [
     "outcomes": []
    }
   ],
-  "photos": [
-   "maitri/vidyasabha-at-primary-school-dhema-shivbaxray.jpg",
-   "maitri/vidyasabha-at-primary-school-rurukhas.jpg",
-   "scope/digital-school-innovative-learning-activity-by-a-partner-cso.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c35",
@@ -1386,12 +1249,7 @@ export const catalog = [
     "outcomes": []
    }
   ],
-  "photos": [
-   "maitri/enrolment-related-school-visit.jpg",
-   "maitri/school-visit-for-enrolment-follow-up.jpg",
-   "maitri/vidyasabha-at-primary-school-ahran-suvansh.jpg",
-   "maitri/vidyasabha-at-primary-school-sahijanwa.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c38",
@@ -1423,12 +1281,7 @@ export const catalog = [
     ]
    }
   ],
-  "photos": [
-   "scope/digital-school-innovative-learning-activity-by-a-partner-cso.jpg",
-   "maitri/vidyasabha-at-primary-school-dhema-shivbaxray-2.jpg",
-   "maitri/vidyasabha-at-primary-school-dhema-shivbaxray.jpg",
-   "maitri/vidyasabha-at-primary-school-sagarpatti.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "c39",
@@ -1455,15 +1308,7 @@ export const catalog = [
     "outcomes": []
    }
   ],
-  "photos": [
-   "mausam/od-baseline-at-disha-banda.jpg",
-   "mausam/od-baseline-at-mb-banda.jpg",
-   "mausam/od-baseline-of-kss-banda.jpg",
-   "mausam/od-baseline-of-sss-banda.jpg",
-   "mausam/od-training-of-cso-partners-2.jpg",
-   "mausam/od-training-of-cso-partners.jpg",
-   "scope/exposure-visit-of-partner-csos-to-vssm-ahmedabad.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "o2",
@@ -1569,7 +1414,7 @@ export const catalog = [
   "year": 2025,
   "donor": "PANI Sansthan",
   "summary": "Community action for climate resilience with 25 partner CSOs.",
-  "slug": "mausam",
+  "slug": null,
   "img": null,
   "phases": [
    {
@@ -1585,19 +1430,7 @@ export const catalog = [
     "outcomes": []
    }
   ],
-  "photos": [
-   "mausam/od-baseline-at-disha-banda.jpg",
-   "mausam/od-baseline-at-mb-banda.jpg",
-   "mausam/od-baseline-of-kss-banda.jpg",
-   "mausam/od-baseline-of-sss-banda.jpg",
-   "mausam/od-training-of-cso-partners-2.jpg",
-   "mausam/od-training-of-cso-partners.jpg",
-   "mausam/organisational-development-baseline-exercise.jpg",
-   "mausam/training-on-cib-for-the-field-team-2.jpg",
-   "mausam/training-on-cib-for-the-field-team.jpg",
-   "mausam/training-on-organisational-development-at-chachikpur.jpg",
-   "mausam/training-on-organisational-development.jpg"
-  ]
+  "photos": []
  },
  {
   "id": "maitri",
@@ -1738,6 +1571,50 @@ export const catalog = [
    "tcr-banda/training-with-animators-on-masculinity.jpg",
    "tcr-banda/training-with-animators-on-srhr.jpg",
    "tcr-banda/village-level-meeting-with-men.jpg"
+  ]
+ },
+ {
+  "id": "mausam",
+  "title": "Mausam",
+  "category": "civil",
+  "status": "ongoing",
+  "period": "",
+  "year": 2026,
+  "donor": "",
+  "summary": "Organisational development support for partner civil society organisations across Uttar Pradesh.",
+  "slug": "mausam",
+  "img": null,
+  "phases": [
+   {
+    "label": null,
+    "status": "ongoing",
+    "period": "",
+    "donor": "",
+    "beneficiaries": "",
+    "summary": "Mausam strengthens partner civil society organisations across Uttar Pradesh. Each partner starts with an organisational development baseline, followed by OD training and training on CIB for field teams.",
+    "stats": {},
+    "outcomes": [],
+    "activities": [
+     "Organisational development (OD) baseline with partner CSOs (MB, Disha, KSS, SSS – Banda)",
+     "OD training of CSO partners",
+     "Training on organisational development at Chachikpur",
+     "Training on CIB for field teams",
+     "Partner meetings and capacity building"
+    ]
+   }
+  ],
+  "photos": [
+   "mausam/od-baseline-at-disha-banda.jpg",
+   "mausam/od-baseline-at-mb-banda.jpg",
+   "mausam/od-baseline-of-kss-banda.jpg",
+   "mausam/od-baseline-of-sss-banda.jpg",
+   "mausam/od-training-of-cso-partners-2.jpg",
+   "mausam/od-training-of-cso-partners.jpg",
+   "mausam/organisational-development-baseline-exercise.jpg",
+   "mausam/training-on-cib-for-the-field-team-2.jpg",
+   "mausam/training-on-cib-for-the-field-team.jpg",
+   "mausam/training-on-organisational-development-at-chachikpur.jpg",
+   "mausam/training-on-organisational-development.jpg"
   ]
  }
 ];

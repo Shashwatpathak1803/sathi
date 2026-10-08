@@ -60,7 +60,6 @@ export const images = [
   { project: "mrc-banda", src: src("mrc-banda/100-day-intensive-awareness-campaign-for-child-marriage-free-bharat-at.jpg"), caption: "100-day intensive awareness campaign for Child Marriage Free Bharat at Gram Panchayat Atarra", width: 1600, height: 900 },
   { project: "mrc-banda", src: src("mrc-banda/labour-helpline-number-displayed-at-banda-railway-station-with-police-.jpg"), caption: "Labour helpline number displayed at Banda railway station with police and RPF staff", width: 1600, height: 1200 },
   { project: "mrc-banda", src: src("mrc-banda/coordination-with-the-gram-pradhan.jpg"), caption: "Coordination with the Gram Pradhan", width: 1600, height: 900 },
-  { project: "mrc-banda", src: src("mrc-banda/outreach-with-community-members-at-nandwara.jpg"), caption: "Outreach with community members at Nandwara", width: 1600, height: 1200 },
   { project: "erw", src: src("erw/community-link-worker-mobilising-sangathan-women-through-a-home-visit.jpg"), caption: "Community Link Worker mobilising sangathan women through a home visit", width: 780, height: 1040 },
   { project: "erw", src: src("erw/collective-celebration-of-international-women-s-day.jpg"), caption: "Collective celebration of International Women's Day", width: 1280, height: 575 },
   { project: "erw", src: src("erw/community-monitoring-visit.jpg"), caption: "Community monitoring visit", width: 1280, height: 575 },
