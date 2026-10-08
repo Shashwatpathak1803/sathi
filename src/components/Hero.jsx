@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { siteConfig } from '../data/siteConfig';
+import CountUp from './CountUp';
 import Icon from './Icon';
+import Typewriter from './Typewriter';
 
 import slide1 from '../assets/projects/erw/hamlet-level-dialogue-women-raising-concerns-and-planning-collective-a.jpg';
 import slide2 from '../assets/projects/erw/collective-celebration-of-international-women-s-day.jpg';
@@ -17,7 +20,10 @@ const slides = [
   { src: slide5, alt: 'Community members at an information session on safe migration' },
 ];
 
-const INTERVAL_MS = 5000;
+// Phrases typed after "Building Stronger Communities Through".
+const phrases = ['Awareness', 'Empowerment', 'Collective Action', 'Education & Learning', 'Health & Nutrition'];
+
+const INTERVAL_MS = 5500;
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
@@ -27,7 +33,7 @@ export default function Hero() {
     if (reduce || slides.length < 2) return undefined;
     const t = setInterval(() => setIndex((i) => (i + 1) % slides.length), INTERVAL_MS);
     return () => clearInterval(t);
-  }, []);
+  }, [index]);
 
   return (
     <section className="hero" aria-labelledby="hero-title">
@@ -46,15 +52,54 @@ export default function Hero() {
         ))}
       </div>
       <div className="hero__overlay" aria-hidden="true" />
+      <div className="hero__glow" aria-hidden="true" />
 
       <div className="container hero__content">
-        <h1 id="hero-title">Building Stronger Communities Through Awareness, Empowerment and Collective Action</h1>
-        <p>Working with communities, women, children and local partners across Uttar Pradesh.</p>
-        <Link to="/#our-work" className="btn btn--primary btn--lg">
-          Explore Our Work <Icon name="arrow" size={20} />
-        </Link>
+        <p className="hero__eyebrow">
+          <span className="hero__dot" /> Serving Uttar Pradesh since {siteConfig.foundedYear}
+        </p>
+        <h1 id="hero-title">
+          Building Stronger Communities Through <span className="hero__typed"><Typewriter phrases={phrases} /></span>
+        </h1>
+        <p className="hero__lead">Working with communities, women, children and local partners across Uttar Pradesh.</p>
+        <div className="hero__actions">
+          <Link to="/#our-work" className="btn btn--accent btn--lg">
+            Explore Our Work <Icon name="arrow" size={20} />
+          </Link>
+          <Link to="/#about" className="btn btn--outline-light btn--lg">
+            Who We Are
+          </Link>
+        </div>
+
+        <div className="hero__dots" role="tablist" aria-label="Hero photo">
+          {slides.map((s, i) => (
+            <button
+              key={s.src}
+              type="button"
+              role="tab"
+              aria-selected={i === index}
+              aria-label={`Show photo ${i + 1}`}
+              className={i === index ? 'is-active' : ''}
+              onClick={() => setIndex(i)}
+            />
+          ))}
+        </div>
       </div>
 
+      <div className="hero__stats">
+        <div className="container">
+          <ul>
+            {siteConfig.stats.items.map((s) => (
+              <li key={s.label}>
+                <strong>
+                  <CountUp value={s.value} />
+                </strong>
+                <span>{s.label}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </section>
   );
 }

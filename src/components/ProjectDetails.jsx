@@ -15,8 +15,8 @@ export default function ProjectDetails({ project, otherProjects = [] }) {
         <img src={coverImage?.src} alt="" loading="eager" width={coverImage?.width} height={coverImage?.height} />
         <div className="project-detail__banner-overlay" aria-hidden="true" />
         <div className="container project-detail__banner-content">
-          <Link to="/#projects" className="back-link">
-            <Icon name="chevronLeft" size={18} /> All projects
+          <Link to="/#our-work" className="back-link">
+            <Icon name="chevronLeft" size={18} /> Our Work
           </Link>
           <p className="project-detail__theme">{theme}</p>
           <h1>{name}</h1>

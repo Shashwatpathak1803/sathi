@@ -39,9 +39,8 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-html,
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
@@ -239,14 +238,23 @@ code {
   inset: 0 0 auto 0;
   height: var(--nav-h);
   z-index: 100;
-  background: rgba(251, 249, 244, 0.92);
-  backdrop-filter: blur(8px);
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
-.navbar--transparent {
-  background: transparent;
-  backdrop-filter: none;
+/* The blurred backdrop lives on a pseudo-element: backdrop-filter on .navbar itself
+   would trap the fixed mobile menu inside the 72px header. */
+.navbar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(251, 249, 244, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: opacity 0.2s ease;
+}
+.navbar--transparent::before {
+  opacity: 0;
 }
 .navbar--transparent .brand__name,
 .navbar--transparent .brand__sub,

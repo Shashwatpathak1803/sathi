@@ -1,0 +1,87 @@
+/* ---------- Project phases (inside the project details panel) ---------- */
+.pcard__stats .pcard__phases {
+  background: var(--hue);
+  color: #fff;
+}
+.pcard__stats .pcard__phases strong {
+  color: #fff;
+}
+.pmodal__phasenav {
+  margin: -0.4rem 0 1rem;
+}
+.phase + .phase {
+  margin-top: 1.6rem;
+  padding-top: 1.4rem;
+  border-top: 1px dashed var(--line);
+}
+.phase__head {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.4rem;
+}
+.phase__head h4 {
+  margin: 0;
+  padding: 0.15rem 0.8rem;
+  border-radius: 999px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--hue);
+}
+.phase__summary {
+  color: var(--ink-2);
+}
+.phase .pmodal__facts {
+  margin-top: 0.9rem;
+}
+.pmodal__body h5 {
+  margin: 1.1rem 0 0.5rem;
+  font-family: var(--font-head);
+  font-size: 1.02rem;
+}
+.phase--single .pmodal__facts:first-child {
+  margin-top: 1.25rem;
+}
+.pmodal__photos {
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+/* Board page extras */
+.board-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.board-jump a {
+  padding: 0.4rem 0.95rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+.board-jump a:hover {
+  background: #fff;
+  color: var(--green-dark);
+}
+.board-jump span {
+  opacity: 0.75;
+  font-size: 0.8rem;
+}
+.board-group {
+  scroll-margin-top: calc(var(--nav-h) + 1rem);
+}
+.board-group__intro {
+  max-width: 62ch;
+  margin: -0.6rem 0 1.5rem;
+  color: var(--ink-2);
+}
+
+.pmodal__photos { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.8rem; }
+.pmodal__photos figure { margin: 0; }
+.pmodal__photos figcaption { margin-top: 0.3rem; font-size: 0.76rem; line-height: 1.3; color: var(--ink-2); }

@@ -5,6 +5,14 @@
 const modules = import.meta.glob('../assets/projects/**/*.jpg', { eager: true, import: 'default' });
 const src = (file) => modules[`../assets/projects/${file}`];
 
+export const assetUrl = (file) => src(file);
+
+/** Look up a photo (with caption) by its "folder/file.jpg" name. */
+export const imageByFile = (file) => {
+  const url = src(file);
+  return images.find((img) => img.src === url);
+};
+
 export const images = [
   { project: "maitri", src: src("maitri/baseline-assessment-with-community-members.jpg"), caption: "Baseline assessment with community members", width: 1600, height: 1200 },
   { project: "maitri", src: src("maitri/baseline-assessment-in-the-village.jpg"), caption: "Baseline assessment in the village", width: 1600, height: 1200 },
@@ -52,6 +60,7 @@ export const images = [
   { project: "mrc-banda", src: src("mrc-banda/100-day-intensive-awareness-campaign-for-child-marriage-free-bharat-at.jpg"), caption: "100-day intensive awareness campaign for Child Marriage Free Bharat at Gram Panchayat Atarra", width: 1600, height: 900 },
   { project: "mrc-banda", src: src("mrc-banda/labour-helpline-number-displayed-at-banda-railway-station-with-police-.jpg"), caption: "Labour helpline number displayed at Banda railway station with police and RPF staff", width: 1600, height: 1200 },
   { project: "mrc-banda", src: src("mrc-banda/coordination-with-the-gram-pradhan.jpg"), caption: "Coordination with the Gram Pradhan", width: 1600, height: 900 },
+  { project: "mrc-banda", src: src("mrc-banda/outreach-with-community-members-at-nandwara.jpg"), caption: "Outreach with community members at Nandwara", width: 1600, height: 1200 },
   { project: "erw", src: src("erw/community-link-worker-mobilising-sangathan-women-through-a-home-visit.jpg"), caption: "Community Link Worker mobilising sangathan women through a home visit", width: 780, height: 1040 },
   { project: "erw", src: src("erw/collective-celebration-of-international-women-s-day.jpg"), caption: "Collective celebration of International Women's Day", width: 1280, height: 575 },
   { project: "erw", src: src("erw/community-monitoring-visit.jpg"), caption: "Community monitoring visit", width: 1280, height: 575 },

@@ -7,8 +7,9 @@ const links = [
   { label: 'Home', to: '/' },
   { label: 'About Us', to: '/#about' },
   { label: 'Our Work', to: '/#our-work' },
-  { label: 'Projects', to: '/#projects' },
   { label: 'Gallery', to: '/gallery' },
+  { label: 'Board & Team', to: '/our-board' },
+  { label: 'Legal', to: '/legal-documents' },
   { label: 'Contact', to: '/#contact' },
 ];
 

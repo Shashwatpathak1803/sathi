@@ -1,0 +1,31 @@
+/* Five category tiles: 3 on the first row, 2 wider ones on the second. */
+.cat-grid {
+  grid-template-columns: repeat(6, 1fr);
+}
+.cat-grid > * {
+  grid-column: span 2;
+}
+.cat-grid > *:nth-child(n + 4) {
+  grid-column: span 3;
+}
+.cat-grid > *:nth-child(n + 4) .cat-card {
+  aspect-ratio: 16 / 7;
+}
+@media (max-width: 700px) {
+  .cat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cat-grid > *,
+  .cat-grid > *:nth-child(n + 4) {
+    grid-column: span 1;
+  }
+  .cat-grid > *:last-child {
+    grid-column: 1 / -1;
+  }
+  .cat-grid > *:nth-child(n + 4) .cat-card {
+    aspect-ratio: 1 / 1.05;
+  }
+  .cat-grid > *:last-child .cat-card {
+    aspect-ratio: 16 / 8;
+  }
+}

@@ -5,6 +5,23 @@ import GalleryFilter from './GalleryFilter';
 import Lightbox from './Lightbox';
 
 const projectName = Object.fromEntries(projects.map((p) => [p.slug, p.shortName]));
+const PAGE_SIZE = 24;
+
+/** Image that fades in once loaded and shows a neutral placeholder if it fails. */
+function FadeImg({ src, alt, eager }) {
+  const [state, setState] = useState('loading');
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className={`fade-img fade-img--${state}`}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+      onLoad={() => setState('ready')}
+      onError={() => setState('error')}
+    />
+  );
+}
 
 /**
  * Filterable photo gallery with lightbox.
@@ -22,17 +39,29 @@ export default function Gallery({ limit }) {
     []
   );
 
-  const visible = useMemo(() => {
+  const [shown, setShown] = useState(PAGE_SIZE);
+
+  const filtered = useMemo(() => {
     const list = active === 'all' ? images : images.filter((img) => img.project === active);
     return limit ? list.slice(0, limit) : list;
   }, [active, limit]);
 
+  // Render photos in pages so 100+ large images are not requested at once.
+  const visible = useMemo(() => filtered.slice(0, shown), [filtered, shown]);
+
   return (
     <div className="gallery">
-      <GalleryFilter categories={categories} active={active} onChange={(v) => setActive(v)} />
+      <GalleryFilter
+        categories={categories}
+        active={active}
+        onChange={(v) => {
+          setActive(v);
+          setShown(PAGE_SIZE);
+        }}
+      />
 
       <p className="muted small gallery__status" aria-live="polite">
-        Showing {visible.length} photo{visible.length === 1 ? '' : 's'}
+        Showing {visible.length} of {filtered.length} photo{filtered.length === 1 ? '' : 's'}
         {active !== 'all' && ` from ${projectName[active]}`}
       </p>
 
@@ -45,7 +74,7 @@ export default function Gallery({ limit }) {
               onClick={() => setLightboxIndex(i)}
               aria-label={`Open photo: ${img.caption} (${projectName[img.project]})`}
             >
-              <img src={img.src} alt={img.caption} loading="lazy" decoding="async" width={img.width} height={img.height} />
+              <FadeImg src={img.src} alt={img.caption} eager={i < 8} />
             </button>
             <figcaption className="photo-tile__caption">
               <span className="photo-tile__project">{projectName[img.project]}</span>
@@ -54,6 +83,14 @@ export default function Gallery({ limit }) {
           </figure>
         ))}
       </div>
+
+      {shown < filtered.length && (
+        <div className="gallery__more">
+          <button type="button" className="btn btn--ghost" onClick={() => setShown((n) => n + PAGE_SIZE)}>
+            Show more photos ({filtered.length - shown} remaining)
+          </button>
+        </div>
+      )}
 
       {lightboxIndex !== null && (
         <Lightbox
