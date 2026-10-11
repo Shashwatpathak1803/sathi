@@ -72,6 +72,9 @@ export default function Footer() {
         <p>
           © {new Date().getFullYear()} {name}. All rights reserved.
         </p>
+        <p>
+          Developed and Managed by <Link target='_blank'   to={'https://chiragsingh.online'}>Chirag Singh</Link>
+        </p>
       </div>
     </footer>
   );
