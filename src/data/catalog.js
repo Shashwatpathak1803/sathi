@@ -1417,7 +1417,7 @@ export const catalog = [
   "period": "Mar 2025 – May 2028",
   "year": 2025,
   "donor": "Tata Trusts",
-  "summary": "Tata Trusts-supported programme for children, pregnant and lactating women in 200 villages of Ambedkar Nagar.",
+  "summary": "Improving the health and nutritional status of pregnant women, lactating mothers and children under five through community-led action, convergence with the Health Department and ICDS, and trained Poshan Mitras.",
   "slug": "nutrition",
   "img": null,
   "phases": [
@@ -1427,7 +1427,7 @@ export const catalog = [
     "period": "Mar 2025 – May 2028",
     "donor": "Tata Trusts",
     "beneficiaries": "Children, pregnant and lactating women",
-    "summary": "Tata Trusts-supported programme for children, pregnant and lactating women in 200 villages of Ambedkar Nagar.",
+    "summary": "The Nutrition Project aims to improve the health and nutritional status of vulnerable groups, particularly pregnant women, lactating mothers, and children under five, through community-led interventions. Using the Participatory Learning and Action (PLA) approach, the project promotes community engagement, collective problem-solving, and sustainable behaviour change. It strengthens existing government health and nutrition services through effective convergence with the Health Department and ICDS. The project also contributes to district-level planning and coordination through active participation in the District Nutrition Committee. By developing trained community-based Poshan Mitras, the project fosters local leadership, ownership, and collective responsibility for improved nutrition. Ultimately, it seeks to build empowered communities and strengthen sustainable health and nutrition practices.",
     "stats": {
      "dist": 1,
      "blk": 2,
@@ -1437,6 +1437,16 @@ export const catalog = [
     "outcomes": [
      "Launched in April, 2025,",
      "Team building and project roll-out is being initiatied"
+    ],
+    "activities": [
+     "Participatory Learning and Action (PLA) Meetings: facilitate community-led discussions to identify nutrition challenges, develop local solutions and encourage sustainable behaviour change.",
+     "Prioritized Home Visits: provide targeted counselling and follow-up.",
+     "Take-Home Ration (THR) Session Observation: support improvements in service delivery and counselling on proper utilization.",
+     "Village Health, Sanitation and Nutrition Day (VHSND) Observation: facilitate service delivery, including counselling, supplementation, and beneficiary outreach.",
+     "Growth Monitoring / Screening Session Observation: support quality growth monitoring, early identification of malnutrition, and community-based care of malnourished children.",
+     "Frontline Worker Sensitization and Skill Building: conduct technical sessions with frontline workers to strengthen their knowledge, skills, and coordination on maternal and child nutrition.",
+     "Community Leadership through Poshan Mitras: develop trained community volunteers to promote local ownership of community nutrition initiatives.",
+     "District Nutrition Committee Participation: contribute to district-level planning and coordination to improve nutrition outcomes."
     ]
    }
   ],
@@ -1453,14 +1463,14 @@ export const catalog = [
  },
  {
   "id": "o4",
-  "title": "ACCRCA – Climate Resilience through Community Action",
-  "category": "livelihood",
+  "title": "Mausam – Climate Resilience through Community Action (ACCRCA)",
+  "category": "civil",
   "status": "ongoing",
   "period": "Jul 2025 – Mar 2026",
   "year": 2025,
   "donor": "PANI Sansthan",
-  "summary": "Community action for climate resilience with 25 partner CSOs.",
-  "slug": null,
+  "summary": "Organisational development and climate-resilience support for 25 partner civil society organisations across Uttar Pradesh.",
+  "slug": "mausam",
   "img": null,
   "phases": [
    {
@@ -1469,15 +1479,25 @@ export const catalog = [
     "period": "Jul 2025 – Mar 2026",
     "donor": "PANI Sansthan",
     "beneficiaries": "",
-    "summary": "Community action for climate resilience with 25 partner CSOs.",
+    "summary": "Mausam strengthens partner civil society organisations across Uttar Pradesh. Each partner starts with an organisational development baseline, followed by OD training and training on CIB for field teams, alongside community action for climate resilience.",
     "stats": {
      "cso": 25
     },
-    "outcomes": []
+    "outcomes": [],
+    "activities": [
+     "Organisational development (OD) baseline with partner CSOs (MB, Disha, KSS, SSS – Banda)",
+     "OD training of CSO partners",
+     "Training on organisational development at Chachikpur",
+     "Training on CIB for field teams",
+     "Partner meetings and capacity building"
+    ]
    }
   ],
   "photos": [
-   "mausam/od-training-of-cso-partners-2.jpg"
+   "mausam/od-baseline-at-disha-banda.jpg",
+   "mausam/od-training-of-cso-partners-2.jpg",
+   "mausam/od-training-of-cso-partners.jpg",
+   "mausam/training-on-cib-for-the-field-team.jpg"
   ]
  },
  {
@@ -1531,7 +1551,7 @@ export const catalog = [
   "period": "",
   "year": 2026,
   "donor": "",
-  "summary": "Menstrual health and hygiene awareness in schools and communities.",
+  "summary": "Improving menstrual hygiene management and adolescent health in 250 government schools across Bhiti and Bhiyaon blocks of Ambedkar Nagar.",
   "slug": "smhm",
   "img": null,
   "phases": [
@@ -1541,16 +1561,23 @@ export const catalog = [
     "period": "",
     "donor": "",
     "beneficiaries": "",
-    "summary": "Brings menstrual health and hygiene awareness into schools and communities through sessions with IEC material, video shows and play-and-learn games, along with teacher training, SMC meetings and health camps.",
-    "stats": {},
+    "summary": "The SMHM project aims to improve menstrual hygiene management (MHM) practices and adolescent health outcomes in 250 government schools across Bhiti and Bhiyaon blocks of Ambedkar Nagar, Uttar Pradesh. The approach combines awareness generation, behaviour change, institutional capacity building, access to menstrual products, and upgraded WASH facilities to create a supportive environment for adolescent girls. Through these efforts, and with Government support, the programme seeks to promote safe menstrual practices, improve health and confidence among girls, reduce absenteeism, and build sustainable, girl-friendly school systems that enable adolescent girls to continue their education without barriers.",
+    "stats": {
+     "sch": 250,
+     "blk": 2,
+     "dist": 1
+    },
     "outcomes": [],
     "activities": [
-     "Five-day capacity-building training",
-     "Awareness sessions in schools using IEC material and motivational video shows",
-     "Play-and-learn techniques, including the snake-and-ladder game",
-     "Teacher training",
-     "School Management Committee (SMC) meetings",
-     "Community health camps and World Water Day celebration"
+     "Baseline Assessment & Monitoring: assess current knowledge, practices, and WASH conditions in schools and track changes over time.",
+     "Orientation & Awareness Sessions: conduct structured sessions with adolescent girls on menstruation, hygiene practices, nutrition, stigma reduction, and safe disposal.",
+     "Information, Education & Communication (IEC): distribute age-appropriate IEC materials to reinforce key messages and encourage healthy practices.",
+     "Teacher Capacity Building: train teachers to integrate MHM education into daily school routines, enabling them to serve as facilitators and role models.",
+     "SMC Capacity Building: sensitize School Management Committee members to monitor facilities and ensure the maintenance of girl-friendly infrastructure.",
+     "Reusable Pad Banks: set up school-based pad banks to provide eco-friendly and affordable menstrual products.",
+     "Health Camps: organize screenings for RTIs, UTIs, anemia, and other menstrual health issues, with referrals and follow-ups.",
+     "Happy Period Rooms: establish safe, private, and hygienic spaces for menstrual management within schools.",
+     "Construction / Renovation of WASH Facilities: repair or build toilets, urinals, and handwashing points with gender-sensitive designs."
     ]
    }
   ],
@@ -1609,42 +1636,6 @@ export const catalog = [
    "tcr-banda/training-with-animators-on-masculinity.jpg",
    "tcr-banda/training-with-animators-on-srhr.jpg",
    "tcr-banda/village-level-meeting-with-men.jpg"
-  ]
- },
- {
-  "id": "mausam",
-  "title": "Mausam",
-  "category": "civil",
-  "status": "ongoing",
-  "period": "",
-  "year": 2026,
-  "donor": "",
-  "summary": "Organisational development support for partner civil society organisations across Uttar Pradesh.",
-  "slug": "mausam",
-  "img": null,
-  "phases": [
-   {
-    "label": null,
-    "status": "ongoing",
-    "period": "",
-    "donor": "",
-    "beneficiaries": "",
-    "summary": "Mausam strengthens partner civil society organisations across Uttar Pradesh. Each partner starts with an organisational development baseline, followed by OD training and training on CIB for field teams.",
-    "stats": {},
-    "outcomes": [],
-    "activities": [
-     "Organisational development (OD) baseline with partner CSOs (MB, Disha, KSS, SSS – Banda)",
-     "OD training of CSO partners",
-     "Training on organisational development at Chachikpur",
-     "Training on CIB for field teams",
-     "Partner meetings and capacity building"
-    ]
-   }
-  ],
-  "photos": [
-   "mausam/od-baseline-at-disha-banda.jpg",
-   "mausam/od-training-of-cso-partners.jpg",
-   "mausam/training-on-cib-for-the-field-team.jpg"
   ]
  }
 ];

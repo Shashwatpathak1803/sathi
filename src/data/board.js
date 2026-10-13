@@ -136,5 +136,15 @@ export const teamGroup = {
   ],
 };
 
+// Team photographs (from the PCSA folder), shown under "Our Team".
+export const teamPhotos = [
+  { src: '/team/in-action/team-group-photo.jpg', caption: 'The team and partners at the 2-day “Promoting Civil Society Action” training for CSOs', width: 1400, height: 638 },
+  { src: '/team/in-action/team-felicitation.jpg', caption: 'Felicitation at the SATHI-UP office', width: 1280, height: 576 },
+  { src: '/team/in-action/team-board-discussion.jpg', caption: 'Board and team discussion', width: 1280, height: 720 },
+  { src: '/team/in-action/team-review-meeting.jpg', caption: 'Team review meeting', width: 1400, height: 789 },
+  { src: '/team/in-action/team-at-work.jpg', caption: 'Team members at work', width: 1400, height: 630 },
+  { src: '/team/in-action/team-training-session.jpg', caption: 'Team presentation during a training session', width: 1400, height: 630 },
+];
+
 export const boardIntro =
   'SATHI-UP is guided by experienced grassroots leaders, development practitioners, and advisors who bring expertise across community health, women’s empowerment, education, livelihoods, governance, and institutional development.';

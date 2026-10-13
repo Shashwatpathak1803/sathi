@@ -13,7 +13,7 @@ function DocCard({ doc }) {
   return (
     <article className={`doc-card ${doc.file ? '' : 'doc-card--static'}`}>
       <div className="doc-card__top">
-        <span className="doc-card__type">{doc.file ? type : doc.pending ? 'Pending' : 'Record'}</span>
+        <span className="doc-card__type">{doc.file ? type : 'Record'}</span>
         {doc.year && <span className="doc-card__year">{doc.year}</span>}
       </div>
       <h3>{doc.title}</h3>
@@ -40,9 +40,9 @@ function DocCard({ doc }) {
           </a>
         </div>
       )}
-      {doc.pending && (
+      {!doc.file && (
         <p className="doc-card__note">
-          A scanned copy is being updated. Please <Link to="/#contact">contact us</Link> to request it.
+          Available on request. Please <Link to="/#contact">contact us</Link> for verification.
         </p>
       )}
     </article>

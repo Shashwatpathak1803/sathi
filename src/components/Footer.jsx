@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { siteConfig } from '../data/siteConfig';
 import { projects } from '../data/projects';
+import SocialIcon from './SocialIcon';
 
 const socialLabels = { facebook: 'Facebook', instagram: 'Instagram', twitter: 'X (Twitter)', youtube: 'YouTube', linkedin: 'LinkedIn' };
 
@@ -22,8 +23,15 @@ export default function Footer() {
             <ul className="footer__social" aria-label="Social media">
               {socialLinks.map(([key, url]) => (
                 <li key={key}>
-                  <a href={url} target="_blank" rel="noopener noreferrer">
-                    {socialLabels[key]}
+                  <a
+                    href={url}
+                    className="social-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={socialLabels[key]}
+                    title={socialLabels[key]}
+                  >
+                    <SocialIcon name={key} size={20} />
                   </a>
                 </li>
               ))}

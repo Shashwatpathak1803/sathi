@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
 import PersonCard from '../components/PersonCard';
 import Reveal from '../components/Reveal';
-import { boardGroups, boardIntro, teamGroup } from '../data/board';
+import { boardGroups, boardIntro, teamGroup, teamPhotos } from '../data/board';
 import { siteConfig } from '../data/siteConfig';
 
 const groups = [...boardGroups, teamGroup];
+const jumpLinks = [...groups, { id: 'team-photos', title: 'Team in Action', people: teamPhotos }];
 
 export default function BoardPage() {
   useEffect(() => {
@@ -22,7 +23,7 @@ export default function BoardPage() {
           <h1>Our Board, Advisory &amp; Team</h1>
           <p>{boardIntro}</p>
           <nav className="board-jump" aria-label="Jump to a group">
-            {groups.map((g) => (
+            {jumpLinks.map((g) => (
               <a key={g.id} href={`#${g.id}`}>
                 {g.title} <span>{g.people.length}</span>
               </a>
@@ -47,6 +48,21 @@ export default function BoardPage() {
               </div>
             </Reveal>
           ))}
+
+          <Reveal as="section" id="team-photos" className="board-group" aria-labelledby="team-photos-title">
+            <h2 id="team-photos-title" className="board-group__title">
+              Our Team in Action
+              <span>{teamPhotos.length}</span>
+            </h2>
+            <div className="team-photos">
+              {teamPhotos.map((ph, i) => (
+                <figure key={ph.src} className={i === 0 ? 'team-photos__lead' : ''}>
+                  <img src={ph.src} alt={ph.caption} width={ph.width} height={ph.height} loading="lazy" decoding="async" />
+                  <figcaption>{ph.caption}</figcaption>
+                </figure>
+              ))}
+            </div>
+          </Reveal>
         </div>
       </section>
     </>

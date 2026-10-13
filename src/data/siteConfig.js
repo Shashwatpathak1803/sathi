@@ -44,19 +44,8 @@ export const siteConfig = {
     mapLink: 'https://www.google.com/maps/place/SATHI-UP/@26.76845,82.124079,10z/data=!4m6!3m5!1s0x399a05ff345ba10b:0x3e24bb0534a89091!8m2!3d26.76845!4d82.1240793!16s%2Fg%2F11c6png790',
   },
 
-  // ---- Support / donation (used ONLY in the "Support Our Work" section) ----
-  donation: {
-    // Optional online payment link. Leave null to show bank details only.
-    url: null, // [PLACEHOLDER] e.g. 'https://pages.razorpay.com/...'
-    bank: {
-      accountName: 'SATHI UP',
-      accountNumber: '22260100010155',
-      bankName: 'Bank of Baroda',
-      branch: 'Fatehganj Road, Faizabad',
-      ifsc: 'BARB0FATFAI', // fifth character is zero
-      note: 'Cheque donations are also accepted.',
-    },
-  },
+  // Note: no bank/account details are published on the site. The "Support Our Work"
+  // section asks visitors to contact the organisation instead.
 
   // ---- Social media (set a value to null to hide that link) ---------
   social: {

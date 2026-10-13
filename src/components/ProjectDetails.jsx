@@ -4,6 +4,9 @@ import Icon from './Icon';
 import Lightbox from './Lightbox';
 import Reveal from './Reveal';
 
+/** Values still marked [PLACEHOLDER] in projects.js are not shown to visitors. */
+const known = (v) => Boolean(v) && !String(v).includes('[PLACEHOLDER');
+
 /** Reusable project detail layout. */
 export default function ProjectDetails({ project, otherProjects = [] }) {
   const [lightboxIndex, setLightboxIndex] = useState(null);
@@ -44,18 +47,22 @@ export default function ProjectDetails({ project, otherProjects = [] }) {
           <div className="info-card">
             <h3>Project Information</h3>
             <dl>
-              <div>
-                <dt>
-                  <Icon name="pin" size={18} /> Location
-                </dt>
-                <dd>{location}</dd>
-              </div>
-              <div>
-                <dt>
-                  <Icon name="calendar" size={18} /> Duration
-                </dt>
-                <dd>{duration}</dd>
-              </div>
+              {known(location) && (
+                <div>
+                  <dt>
+                    <Icon name="pin" size={18} /> Location
+                  </dt>
+                  <dd>{location}</dd>
+                </div>
+              )}
+              {known(duration) && (
+                <div>
+                  <dt>
+                    <Icon name="calendar" size={18} /> Duration
+                  </dt>
+                  <dd>{duration}</dd>
+                </div>
+              )}
               <div>
                 <dt>
                   <Icon name="people" size={18} /> Photographs
