@@ -116,7 +116,7 @@ export const boardGroups = [
 ];
 
 // Staff team, from https://sathiup.com/our-team/ — shown under the board on the same page.
-const team = (name, role, file, bio) => ({ name, role, photo: `/team/${file}`, bio });
+const team = (name, role, file, bio, programme) => ({ name, role, photo: `/team/${file}`, bio, programme });
 
 export const teamGroup = {
   id: 'team',
@@ -133,6 +133,10 @@ export const teamGroup = {
     team('Dr. Sanjay Pandey', 'Program Manager', 'sanjay-pandey.jpg', 'Drives health and nutrition program implementation.'),
     team('Priya Tiwari', 'Program Manager', 'priya-tiwari.jpg', 'Supports civil society strengthening and partner coordination.'),
     team('Ajeet Kumar', 'Accounts Manager', 'ajeet-kumar.jpg', 'Oversees finance, compliance, and financial operations.'),
+    team('Anupam Singh', 'Block Coordinator', 'anupam-singh.jpg', 'A development professional with 15+ years of experience in nutrition, education, community development, and program management.'),
+    team('Himani Joshi', 'MIS & Documentation Coordinator', 'himani-joshi.jpg', 'Manages programme data, MIS dashboards, reports, and documentation to support evidence-based decision-making.'),
+    team('Sonakshi Bose', 'MIS Coordinator', 'sonakshi-bose.jpg', 'Specializes in MIS, monitoring and evaluation (M&E), and MEAL systems, with strengths in data analysis and quality assurance.'),
+    team('Virag Kumar Pandey', 'Project Coordinator', 'virag-kumar-pandey.jpg', 'Strengthens community-based organizations and local institutions through capacity building and institutional development.'),
   ],
 };
 

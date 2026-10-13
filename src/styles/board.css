@@ -107,3 +107,9 @@
     aspect-ratio: 4 / 3.6;
   }
 }
+
+/* long bios and programme line */
+.person__programme { margin: -0.25rem 0 0.55rem; font-size: 0.82rem; font-weight: 600; color: var(--green-dark); }
+.person__bio--clamped { display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
+.person__more { margin-top: 0.5rem; padding: 0; border: 0; background: none; font-size: 0.85rem; font-weight: 600; color: var(--green); }
+.person__more:hover { color: var(--green-dark); text-decoration: underline; }
