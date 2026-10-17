@@ -124,6 +124,21 @@ export const images = [
   { project: "nutrition", src: src("nutrition/poshan-mitra-training.jpg"), caption: "Poshan Mitra training", width: 1280, height: 960 },
   { project: "nutrition", src: src("nutrition/take-home-ration-thr-related-activity.jpg"), caption: "Take Home Ration (THR) related activity", width: 1600, height: 1205 },
   { project: "nutrition", src: src("nutrition/annual-reflection-workshop-on-addressing-undernutrition-through-commun.jpg"), caption: "Annual Reflection Workshop on addressing undernutrition through community engagement", width: 1280, height: 960 },
+  { project: "covid-relief", src: src("covid-relief/community-members-waiting-for-relief-kits.jpg"), caption: "Community members waiting at the COVID-19 Response relief distribution", width: 1600, height: 729 },
+  { project: "covid-relief", src: src("covid-relief/food-kits-handed-over-at-the-distribution-point.jpg"), caption: "Food kits being handed over at the distribution point", width: 1600, height: 729 },
+  { project: "covid-relief", src: src("covid-relief/woman-receiving-a-food-kit.jpg"), caption: "A woman receiving a food kit", width: 729, height: 1600 },
+  { project: "covid-relief", src: src("covid-relief/relief-material-ready-for-distribution.jpg"), caption: "Relief material ready for distribution", width: 1600, height: 729 },
+  { project: "covid-relief", src: src("covid-relief/masks-and-food-kits-at-the-relief-stall.jpg"), caption: "Masks and food kits at the COVID-19 Response stall", width: 1478, height: 912 },
+  { project: "covid-relief", src: src("covid-relief/team-members-preparing-a-distribution.jpg"), caption: "Team members preparing a distribution", width: 729, height: 1600 },
+  { project: "covid-relief", src: src("covid-relief/beneficiary-carrying-her-food-ration-home.jpg"), caption: "A beneficiary carrying her food ration home", width: 729, height: 1600 },
+  { project: "covid-relief", src: src("covid-relief/masks-and-relief-kits-displayed-for-distribution.jpg"), caption: "Masks and relief kits displayed for distribution", width: 1385, height: 1600 },
+  { project: "covid-relief", src: src("covid-relief/handing-over-a-ration-kit-to-a-woman.jpg"), caption: "Handing over a ration kit to a woman", width: 1265, height: 1600 },
+  { project: "covid-relief", src: src("covid-relief/relief-distribution-in-the-village.jpg"), caption: "Relief distribution in the village", width: 1600, height: 729 },
+  { project: "covid-relief", src: src("covid-relief/food-kit-distribution-at-the-relief-truck.jpg"), caption: "Food kit distribution at the relief truck", width: 1369, height: 912 },
+  { project: "covid-relief", src: src("covid-relief/team-member-speaking-to-the-media.jpg"), caption: "A team member speaking to the media about the relief work", width: 668, height: 927 },
+  { project: "covid-relief", src: src("covid-relief/handing-over-a-food-kit-to-a-beneficiary.jpg"), caption: "Handing over a food kit to a beneficiary", width: 1159, height: 1600 },
+  { project: "plantation", src: src("plantation/vegetable-saplings-handed-over.jpg"), caption: "Vegetable saplings being handed over at the Nari ki Badi programme", width: 1600, height: 720 },
+  { project: "plantation", src: src("plantation/saplings-ready-for-distribution.jpg"), caption: "Vegetable saplings ready for distribution", width: 1600, height: 720 },
 ];
 
 export const imagesByProject = (slug) => images.filter((img) => img.project === slug);

@@ -195,6 +195,40 @@ const projectDefinitions = [
     location: 'Ambedkar Nagar district, Uttar Pradesh',
     duration: '[PLACEHOLDER — e.g. 2024 – present]',
   },
+  {
+    slug: 'covid-relief',
+    name: 'COVID-19 Relief, Harringtonganj',
+    shortName: 'COVID-19 Relief',
+    cover: 'community-members-waiting-for-relief-kits.jpg',
+    summary: 'Food kits, masks and hygiene materials for vulnerable households during the COVID-19 lockdown.',
+    overview:
+      'During the COVID-19 lockdown, SATHI-UP ran a relief response in Harringtonganj block, Ayodhya. The team distributed food kits to vulnerable households, provided masks and soap for hygiene, and shared posters and brochures to spread awareness about the virus. Migrant families and MGNREGA workers were also supported with hygiene kits and awareness material.',
+    activities: [
+      'Distribution of food kits (rice, flour, oil and other essentials) to 1,000 households',
+      'Masks and soap provided to 1,150 households',
+      'Hygiene kits and COVID-19 awareness material for 950 migrant families and MGNREGA workers',
+      '2,000 posters and 1,000 brochures for awareness generation',
+    ],
+    theme: 'Health, Nutrition & WASH',
+    location: 'Harringtonganj block, Ayodhya, Uttar Pradesh',
+    duration: 'April – May 2020',
+  },
+  {
+    slug: 'plantation',
+    name: 'Plantation Project',
+    shortName: 'Plantation',
+    cover: 'vegetable-saplings-handed-over.jpg',
+    summary: 'Plantation and vegetable sapling distribution drives with communities.',
+    overview:
+      'The Plantation Project organises plantation and sapling distribution drives with communities. The photographs show vegetable saplings being handed over to participants at a Nari ki Badi (kitchen garden) programme for rural women.',
+    activities: [
+      'Plantation drives for visitors to Ayodhya',
+      'Vegetable sapling distribution at the Nari ki Badi programme',
+    ],
+    theme: 'Livelihoods & Climate Resilience',
+    location: 'Ayodhya, Uttar Pradesh',
+    duration: '[PLACEHOLDER]',
+  },
 ];
 
 // Attach photos and cover image to each project.

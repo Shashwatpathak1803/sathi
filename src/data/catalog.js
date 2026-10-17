@@ -479,7 +479,10 @@ export const catalog = [
     "outcomes": []
    }
   ],
-  "photos": []
+  "photos": [
+   "plantation/saplings-ready-for-distribution.jpg",
+   "plantation/vegetable-saplings-handed-over.jpg"
+  ]
  },
  {
   "id": "c1",
@@ -1123,8 +1126,8 @@ export const catalog = [
   "year": 2020,
   "donor": "Azim Premji Foundation",
   "summary": "Food kits, hygiene materials and awareness material for vulnerable households.",
-  "slug": null,
-  "img": "none",
+  "slug": "covid-relief",
+  "img": null,
   "phases": [
    {
     "label": null,
@@ -1147,7 +1150,21 @@ export const catalog = [
     ]
    }
   ],
-  "photos": []
+  "photos": [
+   "covid-relief/beneficiary-carrying-her-food-ration-home.jpg",
+   "covid-relief/community-members-waiting-for-relief-kits.jpg",
+   "covid-relief/food-kit-distribution-at-the-relief-truck.jpg",
+   "covid-relief/food-kits-handed-over-at-the-distribution-point.jpg",
+   "covid-relief/handing-over-a-food-kit-to-a-beneficiary.jpg",
+   "covid-relief/handing-over-a-ration-kit-to-a-woman.jpg",
+   "covid-relief/masks-and-food-kits-at-the-relief-stall.jpg",
+   "covid-relief/masks-and-relief-kits-displayed-for-distribution.jpg",
+   "covid-relief/relief-distribution-in-the-village.jpg",
+   "covid-relief/relief-material-ready-for-distribution.jpg",
+   "covid-relief/team-member-speaking-to-the-media.jpg",
+   "covid-relief/team-members-preparing-a-distribution.jpg",
+   "covid-relief/woman-receiving-a-food-kit.jpg"
+  ]
  },
  {
   "id": "c24",
